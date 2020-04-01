@@ -46,11 +46,6 @@ const questions = [
         message: "how do you run a test?",
         name: "tests",
     },
-    {
-        type: "input",
-        message: "Do you have any questions?",
-        name: "questions",
-    },
     //copy and paste
 
 
@@ -73,11 +68,13 @@ function init() {
         .prompt(questions)
         .then(answers => {
             console.log(answers);
-            //asios code here
-            axios.get("...url")//user name
-                .then(data => {
-
-                    //interate dta from axios
+            //axios code here
+            axios.get("https://api.github.com/users/" + answers.username)//user name on GitHub with axios
+                .then(response => {
+                    console.log(response);
+                    
+            //integrate data from axios
+            var imageURL = response.data.avatar_url
                     //geneate markdown
                     generateMarkdown(reponse)
                     //write file

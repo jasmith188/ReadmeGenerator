@@ -74,15 +74,22 @@ function init() {
                     console.log(response);
                     
             //integrate data from axios
-            var imageURL = response.data.avatar_url
                     //geneate markdown
                     generateMarkdown(reponse)
-                    //write file
+                    //write file to the readme
+                    fs.writeFile("README.md", generateMarkdown(answers), function(err) {
+                        if (err) {
+                          throw err;
+                        }
+                
+                    
+                      });
+                    });
+                  });
 
+                
 
-                })
-
-        })
+        
 
     // Logic for this app shoud be here. You can create more functions if you like. This is just a template for you to start your Homework but it is not required for you to use it.
 

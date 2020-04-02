@@ -20,7 +20,7 @@ clone this into your GitHub new repository and make surre to include a README fi
 
 
 ## Usage 
-for a repository
+For a Users  Repository
 
 
 ## Credits
@@ -35,10 +35,10 @@ ISC
 ## Badges
 
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-(![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)
 
 
-![GitHub Profile Picture]undefined
+![GitHub Profile Picture](https://avatars3.githubusercontent.com/u/undefined?v=4%27,)
 
 
 ## Contributing
@@ -46,7 +46,7 @@ undefined
 
 
 ## Tests
-npm test
+in the terminal type npm test
 
 
 

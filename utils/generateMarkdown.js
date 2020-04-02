@@ -36,10 +36,10 @@ ${data.license}
 ## Badges
 
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-(![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
 
-![GitHub Profile Picture]${data.avatar_url}
+![GitHub Profile Picture](https://avatars3.githubusercontent.com/u/${data.id}?v=4%27,)
 
 
 ## Contributing

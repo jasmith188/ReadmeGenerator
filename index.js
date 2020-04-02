@@ -5,6 +5,7 @@ const fs = require("fs")
 // Require all npm packages and files
 
 const questions = [
+    //questions
     {
         type: "input",
         message: "what is your GitHub account name?",
@@ -18,7 +19,7 @@ const questions = [
     {
         type: "input",
         message: "can you describe your project?",
-        name: "desription",
+        name: "description",
     },
     {
         type: "input",
@@ -51,8 +52,6 @@ const questions = [
 
 
 
-    // questions to user using "enquirer"
-
 
 
 
@@ -74,10 +73,10 @@ function init() {
                     console.log(response);
                     
             //integrate data from axios
-                    //geneate markdown
-                    generateMarkdown(reponse)
+                    //generate markdown
+                    // generateMarkdown(reponse)
                     //write file to the readme
-                    fs.writeFile("README.md", generateMarkdown(answers), function(err) {
+                    fs.writeFile("readme2.md", generateMarkdown(answers), function(err) {
                         if (err) {
                           throw err;
                         }

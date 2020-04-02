@@ -2,7 +2,7 @@
 # README Generator
 
 ## Description 
-this is a README you can use for a project
+This is a readme you can use for a project
 
 
 ## Table of Contents (Optional)
@@ -16,11 +16,11 @@ If your README is very long, add a table of contents to make it easy for users t
 
 
 ## Installation 
-clone this into your GitHub new repository and make surre to include a README file
+In your GitHub account, clone this into your new repository
 
 
 ## Usage 
-For a Users  Repository
+this is a README
 
 
 ## Credits
@@ -38,7 +38,7 @@ ISC
 ![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)
 
 
-![GitHub Profile Picture](https://avatars3.githubusercontent.com/u/undefined?v=4%27,)
+![GitHub Profile Picture](https://avatars3.githubusercontent.com/u/61388748?v=4)
 
 
 ## Contributing
@@ -46,7 +46,7 @@ undefined
 
 
 ## Tests
-in the terminal type npm test
+in your terminal run npm test
 
 
 

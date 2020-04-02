@@ -39,7 +39,7 @@ ${data.license}
 ![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
 
-![GitHub Profile Picture](https://avatars3.githubusercontent.com/u/${data.id}?v=4%27,)
+![GitHub Profile Picture](https://avatars3.githubusercontent.com/u/61388748?v=4)
 
 
 ## Contributing

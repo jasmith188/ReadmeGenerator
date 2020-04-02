@@ -1,10 +1,8 @@
  
-# Readme Generator
-
+# README Generator
 
 ## Description 
-this is a readme that you can use
-
+this is a README you can use for a project
 
 
 ## Table of Contents (Optional)
@@ -18,28 +16,21 @@ If your README is very long, add a table of contents to make it easy for users t
 
 
 ## Installation 
-clone it into your GitHub repository
-
+clone this into your GitHub new repository and make surre to include a README file
 
 
 ## Usage 
-this is a readme
-
+for a repository
 
 
 ## Credits
 undefined
 
 
-
 ## License
 ISC
 
-
-
 ---
-
-
 
 ## Badges
 
@@ -47,6 +38,7 @@ ISC
 (![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)
 
 
+![GitHub Profile Picture]undefined
 
 
 ## Contributing
@@ -54,11 +46,11 @@ undefined
 
 
 ## Tests
-run node.js in the terminal
+npm test
 
 
 
 ---
-© 2020 jasmith188 🏆 
+© 2020 jasmith188 Jimmy Smith🏆 
 
 

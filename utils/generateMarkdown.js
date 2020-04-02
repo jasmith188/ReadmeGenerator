@@ -2,10 +2,8 @@ function generateMarkdown(data) {
   return ` 
 # ${data.title}
 
-
 ## Description 
 ${data.description}
-
 
 
 ## Table of Contents (Optional)
@@ -22,25 +20,18 @@ If your README is very long, add a table of contents to make it easy for users t
 ${data.installation}
 
 
-
 ## Usage 
 ${data.usage}
-
 
 
 ## Credits
 ${data.credits}
 
 
-
 ## License
 ${data.license}
 
-
-
 ---
-
-
 
 ## Badges
 
@@ -48,6 +39,7 @@ ${data.license}
 (![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
 
+![GitHub Profile Picture]${data.avatar_url}
 
 
 ## Contributing
@@ -60,7 +52,7 @@ ${data.tests}
 
 
 ---
-© 2020 ${data.username} 🏆 
+© 2020 ${data.username} Jimmy Smith🏆 
 
 
 `;

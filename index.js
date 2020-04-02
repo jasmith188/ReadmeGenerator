@@ -48,13 +48,6 @@ const questions = [
         name: "tests",
     },
     //copy and paste
-
-
-
-
-
-
-
 ];
 
 

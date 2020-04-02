@@ -35,7 +35,7 @@ const questions = [
         type: "input",
         message: "what are the licenses for this project?",
         name: "license",
-        choices: [""]
+        choices: ["ISC"]
     },
     {
         type: "input",
@@ -47,9 +47,8 @@ const questions = [
         message: "how do you run a test?",
         name: "tests",
     },
-    //copy and paste
+    
 ];
-
 
 
 
@@ -61,27 +60,25 @@ function init() {
         .then(answers => {
             console.log(answers);
             //axios code here
+            //integrate data from axios
             axios.get("https://api.github.com/users/" + answers.username)//user name on GitHub with axios
                 .then(response => {
                     console.log(response);
-                    
-            //integrate data from axios
+
+
                     //generate markdown
-                    // generateMarkdown(reponse)
                     //write file to the readme
-                    fs.writeFile("readme2.md", generateMarkdown(answers), function(err) {
+                    fs.writeFile("readme2.md", generateMarkdown(answers), function (err) {
                         if (err) {
-                          throw err;
+                            throw err;
                         }
-                
-                    
-                      });
                     });
-                  });
+                });
+        });
 
-                
 
-        
+
+
 
     // Logic for this app shoud be here. You can create more functions if you like. This is just a template for you to start your Homework but it is not required for you to use it.
 

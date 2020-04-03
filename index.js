@@ -47,17 +47,17 @@ const questions = [
         message: "how do you run a test?",
         name: "tests",
     },
-    
+
 ];
 
 
 
-
+//create page
 function init() {
-
-    inquirer
-        .prompt(questions)
+    //ask questions
+    inquirer.prompt(questions)
         .then(answers => {
+            //display answers            
             console.log(answers);
             //axios code here
             //integrate data from axios
@@ -67,8 +67,8 @@ function init() {
 
 
                     //generate markdown
-                    //write file to the readme
-                    fs.writeFile("readme2.md", generateMarkdown(answers), function (err) {
+                    //write file to the new README
+                    fs.writeFile("README2.md", generateMarkdown(answers), function (err) {
                         if (err) {
                             throw err;
                         }
